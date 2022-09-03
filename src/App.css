@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    margin: 0;
+    padding: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  
+  body {
+    font-family: 'Roboto';
   }
-  to {
-    transform: rotate(360deg);
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 0;
+    }
   }
-}
+  
+  .menu-burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 4px 10px;
+  }
+  
+  .menu-burger ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .menu-burger ul li {
+    padding: 0 20px;
+  }
+  
+  .menu-burger ul li:nth-child(2) {
+    padding: 0;
+  }
+  
+  .menu-burger ul li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 12px;
+  }
+  
+  .menu-burger ul li a:hover {
+    color: #2a2a2a;
+  }
+  
+  .menu-burger2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-burger2 {
+      justify-content: flex-end;
+    }
+  }
+  
+  .menu-burger2 .menuDesplegableBurger {
+    margin-right: 10px;
+    padding: 0;
+  }
+  
+  .menu-burger2 .menuDesplegableBurger i {
+    font-size: 1.5rem;
+    color: #111;
+    cursor: pointer;
+  }
+  
+  .menu-burger2 .bodyMenu {
+    padding: 0;
+  }
+  
+  .menu-burger2 .bodyMenu .menuDesplegable {
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .menu-burger2 .bodyMenu .menuDesplegable li {
+    padding: 10px 0;
+    margin-bottom: 0;
+  }
+  
+  .menu-burger2 .logo-container {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .menu-burger2 ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-burger2 ul {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+  .menu-burger2 ul li {
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-burger2 ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #111;
+    }
+  }
+  
+  .menu-burger2 ul li a {
+    text-decoration: none;
+    color: #111;
+    padding: 16px 12px 18px 12px;
+  }
+  
+  .menu-burger2 ul li a:hover {
+    border-bottom: 2px solid #111;
+  }
