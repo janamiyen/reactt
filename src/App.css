@@ -1,125 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  body {
-    font-family: 'Roboto';
-  }
-  
-  @media screen and (max-width: 768px) {
-    .container {
-      padding: 0;
-    }
-  }
-  
-  .menu-burger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eee;
-    padding: 4px 10px;
-  }
-  
-  .menu-burger ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-  }
-  
-  .menu-burger ul li {
-    padding: 0 20px;
-  }
-  
-  .menu-burger ul li:nth-child(2) {
-    padding: 0;
-  }
-  
-  .menu-burger ul li a {
-    text-decoration: none;
-    color: #111;
-    font-size: 12px;
-  }
-  
-  .menu-burger ul li a:hover {
-    color: #2a2a2a;
-  }
-  
-  .menu-burger2 {
-    display: flex;
+footer {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 70px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .menu-burger2 {
-      justify-content: flex-end;
-    }
+}
+
+footer .web-map {
+  display: flex;
+}
+
+footer .web-map ul {
+  list-style: none;
+  margin: 40px;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  footer .web-map ul {
+    width: 50%;
   }
-  
-  .menu-burger2 .menuDesplegableBurger {
-    margin-right: 10px;
-    padding: 0;
-  }
-  
-  .menu-burger2 .menuDesplegableBurger i {
-    font-size: 1.5rem;
-    color: #111;
-    cursor: pointer;
-  }
-  
-  .menu-burger2 .bodyMenu {
-    padding: 0;
-  }
-  
-  .menu-burger2 .bodyMenu .menuDesplegable {
-    padding: 0;
-    margin-top: 10px;
-  }
-  
-  .menu-burger2 .bodyMenu .menuDesplegable li {
-    padding: 10px 0;
-    margin-bottom: 0;
-  }
-  
-  .menu-burger2 .logo-container {
-    position: absolute;
-    left: 10px;
-  }
-  
-  .menu-burger2 ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .menu-burger2 ul {
-      flex-direction: column;
-      justify-content: center;
-    }
-  }
-  
-  .menu-burger2 ul li {
-    margin-right: 10px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .menu-burger2 ul li {
-      margin-right: 0;
-      margin-bottom: 10px;
-      border-bottom: 1px solid #111;
-    }
-  }
-  
-  .menu-burger2 ul li a {
-    text-decoration: none;
-    color: #111;
-    padding: 16px 12px 18px 12px;
-  }
-  
-  .menu-burger2 ul li a:hover {
-    border-bottom: 2px solid #111;
-  }
+}
+
+footer .web-map ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+footer .web-map ul .big-link {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+footer .web-map ul .small-link {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #7e7e7e;
+}
+
+footer .web-map ul .small-link:hover {
+  color: #fff;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+footer .social-icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer .social-icons ul li {
+  margin-right: 20px;
+}
+
+footer .social-icons ul li svg {
+  cursor: pointer;
+}
+
+footer .social-icons ul li svg:hover {
+  fill: #fff;
+}

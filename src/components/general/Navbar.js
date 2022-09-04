@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" sticky="top" >
@@ -17,6 +18,7 @@ function CollapsibleExample() {
             <Nav.Link href="#features">TAKE AWAY</Nav.Link>
             <Nav.Link href="#pricing">FRANQUICIAS</Nav.Link>
             <Nav.Link href="#pricing">TRABAJÁ CON NOSOTROS</Nav.Link>
+           
 
           </Nav>
         </Navbar.Collapse>
