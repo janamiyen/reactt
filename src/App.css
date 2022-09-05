@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img, svg{
+  height: auto;
+  width: 33px;
+}
+
+button{
+  margin: 0px 8px 0px 10px;
+  border: none;
+  
+}
+@media screen and (max-width: 768px) {
+  .CartWidget {
+    position: absolute;
+    margin: 345px;
+  }
+}
+
+/* FOOTER */
 footer {
   background-color: #111;
   color: #fff;
