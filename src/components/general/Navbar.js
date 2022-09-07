@@ -8,13 +8,13 @@ import CartWidget from './CartWidget'
 function CollapsibleExample() {
   return (
 
-    <Navbar collapseOnSelect expand="sm" bg="light" variant="light" sticky="top">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">BurgerLand</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav className="justify-content-center" >
+          <Nav  >
 
             <Nav.Link href="#features">TAKE AWAY</Nav.Link>
             <Nav.Link href="#pricing">FRANQUICIAS</Nav.Link>
@@ -22,10 +22,10 @@ function CollapsibleExample() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <button className='CartWidget'>
-        <CartWidget />
+      <a href='carito' className='CartWidget'>
+        <CartWidget  />
 
-      </button>
+      </a>
     </Navbar>
   );
 }

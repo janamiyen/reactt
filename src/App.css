@@ -4,20 +4,25 @@
   box-sizing: border-box;
 }
 
-img, svg{
-  height: auto;
-  width: 33px;
+.CartWidget {
+cursor: pointer;
+margin: 0 54px 0 0 ;
 }
 
-button{
-  margin: 0px 8px 0px 10px;
-  border: none;
-  
-}
+
 @media screen and (max-width: 768px) {
   .CartWidget {
     position: absolute;
-    margin: 345px;
+    float: right;
+    margin: 0 0 0 120px;
+  }
+}
+/*Cards */
+@media screen and (max-width: 768px) {
+  #dataBurger {
+ display: flex;
+ flex-direction: column;
+ margin: auto;
   }
 }
 
