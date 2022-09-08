@@ -8,6 +8,7 @@ const ItemList = ({items}) => {
     <>
     
     <div className="d-flex flex-column border p-3" style={{width:"18rem"}} >
+    <a href='Home'>{items.imagen} </a>
     <h3>{items.name}</h3>
     <p>${items.precio}</p>
     <p>{items.descripcion}</p>

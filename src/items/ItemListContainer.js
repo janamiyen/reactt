@@ -1,13 +1,14 @@
 import React from 'react'
 import ItemList from './ItemList'
 
+
 const ItemListContainer = (props) => {
   let data = [
     {
       name: "Ckrusty Burger",
       precio: 45,
       descripcion: "Quizás sean las dos hamburguesas de carne 100% vacuna con esa salsa especial y queso derretido, el toque de cebolla y la frescura de la lechuga o el crocante del pepino, lo que la hace la hamburguesa más famosa del mundo. Un sabor único.",
-      imagen:""
+      
     },
     {
       name: "Happy Burger",
@@ -20,6 +21,7 @@ const ItemListContainer = (props) => {
       descripcion: "Imaginá la sensación del clásico Cuarto de Libra. Imaginalo con un medallón de deliciosa carne 100% vacuna, queso cheddar, cebolla, kétchup y mostaza ¿Listo? Ahora duplicá esa sensación. Ya tenés el Doble Cuarto en la cabeza."
     },
     {
+      imagen: "",
       name: "Burger Bootstrap",
       precio: 70,
       descripcion: "Una hamburguesa que sabe de sensaciones. La textura del pollo hace un gran equipo con la suavidad de la mayonesa y un colchón de lechuga."
