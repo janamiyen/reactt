@@ -1,8 +1,9 @@
 import React from 'react'
-
+import ItemCount from './ItemCount'
 
 const ItemList = ({items}) => {
     console.log(items)
+
   return (
     <>
     
@@ -10,6 +11,7 @@ const ItemList = ({items}) => {
     <h3>{items.name}</h3>
     <p>${items.precio}</p>
     <p>{items.descripcion}</p>
+   <div><ItemCount stock='8' initial='1'/></div>
     </div>
     
     </>

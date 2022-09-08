@@ -23,6 +23,7 @@ const ItemListContainer = (props) => {
       name: "Burger Bootstrap",
       precio: 70,
       descripcion: "Una hamburguesa que sabe de sensaciones. La textura del pollo hace un gran equipo con la suavidad de la mayonesa y un colchón de lechuga."
+    
     },
 
   ]
