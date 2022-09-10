@@ -8,6 +8,12 @@
   cursor: pointer;
   margin: 0 54px 0 0;
 }
+.imgBurgerS{
+  object-fit: cover;
+  width: 254px;
+  height: 212px;
+  margin: auto;
+}
 
 
 @media screen and (max-width: 768px) {
