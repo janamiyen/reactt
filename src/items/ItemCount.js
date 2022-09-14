@@ -1,12 +1,13 @@
 import { useState } from "react";
 
+
 const ItemCount = ({ stock, initial }) => {
-    console.log("Item Count Component initialized");
+   
 
     const [count, setCount] = useState(1);
 
     let maxProducts = stock;
-    console.log(maxProducts);
+  
 
     const addHandler = () => {
         if (!(count >= maxProducts)) {

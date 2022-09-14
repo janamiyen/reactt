@@ -12,6 +12,7 @@ function App() {
     <>
         <Navbar/>
         <ItemListContainer name= "" precio= "" descripcion= "" />
+        <ItemListContainer name= "" precio= "" descripcion= "" />
         <Home/>
         <Footer/>
     </>
