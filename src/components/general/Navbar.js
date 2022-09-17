@@ -16,7 +16,7 @@ function CollapsibleExample() {
 
           <Nav  >
 
-            <Nav.Link href="#features">TAKE AWAY</Nav.Link>
+            <Nav.Link  href="#features">TAKE AWAY</Nav.Link>
             <Nav.Link href="#pricing">FRANQUICIAS</Nav.Link>
             <Nav.Link href="#pricing">TRABAJÁ CON NOSOTROS</Nav.Link>
           </Nav>
