@@ -17,7 +17,8 @@ const ItemList = ({items}) => {
     <p className="parrafo">{items.descripcion}</p>
    <ItemCount stock='8' initial='1'/>
    <Link to={'/detail/' + items.id}>
-    <button>Ver más para ver ItemDetail =) </button>
+    <button className="buttonVerMas">Comprar</button>
+     <button className="buttonVerMas">Ver más</button>
    </Link>
     </div>
    

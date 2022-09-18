@@ -35,9 +35,7 @@
     margin: auto;
   }
 }
-#dataBurger{
 
-}
 
 /* Button Item Count*/
 
@@ -63,7 +61,20 @@
   .buttonItemCount:hover {
       background-color: #0000001a;
   }
-
+.buttonVerMas{
+  background-color: #111;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 10px 10px 0 10px;
+    border-radius: 20px;
+}
+.buttonVerMas:hover {
+  opacity: 0.5;
+}
 
 /* FOOTER */
 footer {
