@@ -3,7 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#logo{
+  color:rgb(255 255 255 / 59%);
+    font-weight: 400;
+    font-size: -webkit-xxx-large;
+    font-family: math;
+    margin: 0 30px 0 0;
+}
 .CartWidget {
   cursor: pointer;
   margin: 0 54px 0 0;
@@ -150,4 +156,59 @@ footer .social-icons ul li svg {
 
 footer .social-icons ul li svg:hover {
   fill: #fff;
+}
+
+/*FORMULARIO */
+form {
+  display: flex;
+  flex-direction: column;
+  
+  width: 28rem;
+  backdrop-filter: blur(2rem);
+  padding: 2rem;
+  border-radius: 66px;
+  margin: auto;
+
+}
+
+input {
+ 
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 10px 6px 0 0;
+    border-radius: 20px;
+    cursor: text;
+    width: 20rem;
+    display: flex;
+    align-self: center;
+}
+fieldset {
+  text-align: center;
+  border: none;
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: 900;
+ 
+}
+ h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+#submit {
+  background-color: #111;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 6px 6px 0 0;
+  border-radius: 20px;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
 }

@@ -15,7 +15,7 @@ const ItemList = ({items}) => {
    <img src={ process.env.PUBLIC_URL + '/img/' + items.imagen} alt={items.name} className="imgBurgerS"/> 
     <p className="parrafo">${items.precio}</p>
     <p className="parrafo">{items.descripcion}</p>
-   <ItemCount stock='8' initial='1'/>
+   <ItemCount stock={items.stock} initial='1'/>
    <Link to={'/detail/' + items.id}>
     <button className="buttonVerMas">Comprar</button>
      <button className="buttonVerMas">Ver más</button>

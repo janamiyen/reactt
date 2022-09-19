@@ -5,19 +5,25 @@ import ItemDetailContainer from './items/ItemDetailContainer';
 import Footer from './components/general/Footer'
 import ItemListContainer from './items/ItemListContainer';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import TrabajaConNosotros from './components/general/trabajaConNosotros'
 
 
 function App() {
   return (
 
-    <BrowserRouter BrowserRouter>
-    <Navbar/>
-      <Routes Routes>
-        <Route index element= {<ItemListContainer/>} />
-        <Route path='/detail/:id' element= {<ItemDetailContainer/>} />
+    <BrowserRouter>
+      <Navbar />
       
+      <Routes >
+        <Route index element={<ItemListContainer />} />
+        <Route path='/detail/:id' element={<ItemDetailContainer/>} />
+        <Route path='/TrabajaConNosotros' element={<TrabajaConNosotros/>} />
+        <Route
+            path='/:categoria'
+            element={<ItemListContainer />}
+          />
       </Routes>
-        <Footer/>
+      <Footer />
     </BrowserRouter>
 
   );
