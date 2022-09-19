@@ -23,12 +23,7 @@ function CollapsibleExample() {
               categorias.map(categoria => {
                 return (
                   <Nav.Link as={Link} to={"/" + categoria} >{categoria}  </Nav.Link>
-                )
-              }
-              )
-            }
-
-
+                )} ) }
           </Nav>
         </Navbar.Collapse>
       </Container>
